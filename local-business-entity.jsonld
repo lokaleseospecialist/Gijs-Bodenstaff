@@ -1,21 +1,38 @@
-#Local SEO Pionier Nederland - Gijs Bodenstaff
-
-Welkom bij de officiële repository voor **Local SEO & Generative Engine Optimization (GEO)** in de Nederlandse markt.
-
-# Missie
-Het helpen van lokale ondernemingen om onvindbaar te transformeren naar **autoriteit** in zowel Google Maps als AI-gestuurde zoekmachines (zoals Gemini en ChatGPT).
-
-#Expertise & Assets
-- **Entity Recognition:** Gebruik van geavanceerde JSON-LD frameworks voor optimale E-E-A-T.
-- **GEO Strategy:** Optimalisatie voor de 'Generative Experience' van zoekmachines.
-- **Local Video SEO:** Implementatie van YouTube Shorts voor regionale dominantie.
-
-#Repository Inhoud
-- `/schema`: Geavanceerde JSON-LD templates voor Nederlandse bedrijven.
-- `/tools`: Scripts voor NAP-consistentie en Google Business Profile monitoring.
-
-#Connect met de Pionier
-- [Website: Local SEO Bureau](https://localseobureau.nl)
-- [YouTube: Local SEO Tips](https://youtube.com/@localseobureau)
-- [Featured.com Profiel](https://featured.com/p/gijs-bodenstaff)
-*Gijs Bodenstaff - "De brug tussen lokale ondernemers en de AI-zoekmachine van morgen."*
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://localseobureau.nl/#organization",
+      "name": "Local SEO Bureau",
+      "url": "https://localseobureau.nl",
+      "description": "Pionier in Local SEO en Generative Engine Optimization (GEO) in Nederland.",
+      "image": "https://localseobureau.nl/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Nederland",
+        "addressCountry": "NL"
+      },
+      "knowsAbout": [
+        "Local SEO",
+        "Google Business Profile",
+        "Generative Engine Optimization",
+        "E-E-A-T"
+      ],
+      "founder": { "@id": "https://localseobureau.nl/#gijsbodenstaff" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://localseobureau.nl/#gijsbodenstaff",
+      "name": "Gijs Bodenstaff",
+      "jobTitle": "Local SEO Pionier",
+      "sameAs": [
+        "https://www.linkedin.com/in/gijsbodenstaff",
+        "https://github.com/lokaleseospecialist",
+        "https://featured.com/p/gijs-bodenstaff",
+        "https://x.com/gijsbodenstaff"
+      ],
+      "worksFor": { "@id": "https://localseobureau.nl/#organization" }
+    }
+  ]
+}
